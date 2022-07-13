@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/node
+FROM public.ecr.aws/docker/library/node:alpine
 WORKDIR /usr/local/app
 
 COPY . .
